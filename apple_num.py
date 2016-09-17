@@ -14,6 +14,7 @@ for x in xrange(0, 20):
     for j in xrange(0, 20):
         if x*apple_list[0] + j*apple_list[1] == num:
             count = x + j
+            print x, j
             flag = 1
             break
     if flag == 1:
